@@ -10,8 +10,8 @@ body {
   font-family: "TT Norms Pro", sans-serif;
   display: flex;
   align: vertical;
-  width: 1080px;
-  height: 1920px;
+  width: 1920px;
+  height: 1080px;
   margin: 0;
   padding: 0;
 
@@ -19,8 +19,8 @@ body {
 
 .background-class{
   background: linear-gradient(to right, #5e84ff, #fff799);
-  width: 1080px;
-  height: 1920px;
+  width: 1920px;
+  height: 1080px;
   padding: 60px;
   gap: 40px;
   justify-content: left;
@@ -43,7 +43,7 @@ body {
 
 .event-logo {
   display: flex;
-  padding-top: 800px;
+  padding-top: 100px;
  
 }
 
