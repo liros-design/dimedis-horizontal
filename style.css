@@ -1,15 +1,23 @@
 @font-face {
   font-family: "TT Norms Pro";
-  src: url("https://github.com/liros-design/GSAP-Test/raw/11c5c5db9a173ad27bde75089ddd06763d2dc08a/TTNormsPro-Regular.woff")
+  src: url("https://github.com/liros-design/dimedis-horizontal/raw/refs/heads/main/TTNormsProRG.woff")
     format("woff");
   font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Norms Pro";
+  src: url("https://github.com/liros-design/dimedis-horizontal/raw/refs/heads/main/TTNormsProBd.woff")
+    format("woff");
+  font-weight: bold;
   font-style: normal;
 }
 
 body {
   font-family: "TT Norms Pro", sans-serif;
   display: flex;
-  align: vertical;
+  justify-content: flex-start;
   width: 1920px;
   height: 1080px;
   margin: 0;
@@ -22,8 +30,8 @@ body {
   width: 1920px;
   height: 1080px;
   padding: 60px;
-  gap: 40px;
-  justify-content: left;
+  display: flex;
+  justify-content: flex-start;
 
 }
 
