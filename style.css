@@ -52,10 +52,6 @@ body {
  
 }
 
-.event-logo {
-  display: flex;
- 
-}
 
 .event-logo img {
   max-width: 200px;
